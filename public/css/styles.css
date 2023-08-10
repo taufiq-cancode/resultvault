@@ -1,0 +1,30 @@
+.title-block{
+    color: #344767;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 22.4px;
+    vertical-align: baseline;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: start;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.loader {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    border-top-color: #333;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
